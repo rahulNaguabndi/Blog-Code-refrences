@@ -1,0 +1,23 @@
+#game {
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px;
+  min-height: 100px;
+  text-align: center;
+}
+#status {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  width: "80vw";
+  justify-content: space-evenly;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}

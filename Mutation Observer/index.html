@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mutation Observer - Red Light, Green Light</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Red Light, Green Light - Mutation Observer</h1>
+    <div id="container">
+      <div id="game">
+        <p id="status">Green Light: You can move!</p>
+        <button id="addPlayer">Add Player</button>
+        <button id="removePlayer">Remove Player</button>
+        <div id="playerList"></div>
+      </div>
+      <div>
+        <img
+          id="redLightImage"
+          src="https://i.pinimg.com/originals/89/a7/5e/89a75ea3047f46bca7ec52b5966347e7.gif"
+          alt="Red Light"
+          style="display: none; width: 300px; height: 300px"
+        />
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
